@@ -1,0 +1,348 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/images/cloud.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: fantasy;
+}
+
+
+
+/* navigation start */
+nav {
+    position: fixed;
+     top: 0;
+width: 100%;
+font-size: 29px;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 29px 30px 5px 30px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;  
+    display: block;
+    padding: 8px;
+}
+
+nav ul li a:hover {
+    
+    font-size: 45px;
+    background-color: rgb(234, 241, 241);
+    color: rgb(156, 51, 156);
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    border-radius: 26.5%;
+    font-family: initial;
+}
+nav ul li a:active {
+    font-size:47px ;
+    color: rgb(236, 198, 198);
+    background-color: rgb(119, 82, 131);
+    text-shadow:
+    -1px -1px 0 rgb(160, 55, 151),
+    1px -1px 0 rgb(160, 55, 151),
+    -1px 1px 0 rgb(160, 55, 151),
+    1px 1px 0 rgb(160, 55, 151),
+}
+
+
+/* navigation end */
+
+/* Headings and Logos  start*/
+.BB-Logo img {
+    width: 27.5%;
+    margin: 200px 200px 20px 700px;
+    size: 8%;
+    border-radius: 20%;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    color: rgb(134, 50, 134);
+    font-size: 6.6rem;   
+    font-weight: bold;
+    margin:30px 200px 20px 120px;
+}
+
+/* Headings and Logos */
+
+/* about us start  */
+.about_us {
+    font-size: 2.5rem;
+    width: 78%;
+    margin: 110px auto;
+}
+.about_us p {
+margin-top: 38px;
+
+}
+/* about us end  */
+
+/* singature bowls start */
+/* qi Bowl start */
+
+.qiBowl img {
+    width: 30%;
+    border-radius: 20%;
+    float: right;
+    margin: 200px 300px 350px 500px;
+}
+
+.qiBowl h2 {
+    font-size: 3.6rem;
+    width: 85%;   
+    color: rgb(98, 37, 155); 
+}
+
+.qiBowl img {
+margin: 20px 500px 250px 200px;
+
+}
+
+.qiBowl p {
+    font-size: 2.1rem;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    margin-top: 11px;
+   
+}
+.qiBowl strong {
+font-weight: bold;
+color: rgb(88, 12, 158);
+font-style: italic;  
+font-size: 2.5rem;
+}
+
+
+.qiBowl {
+    margin: 5px 200px 50px 225px;
+}
+/* qi Bowl end */
+h2 {
+    margin-top: 200px;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    }
+/* Yogi Bowl start */
+
+.yogiBowl img {
+    width: 30%;
+    border-radius: 20%;
+    float: right;
+    margin: 200px 300px 450px 500px;
+}
+
+.yogiBowl h2 {
+    font-size: 3.8rem;
+    width: 85%;   
+    color: rgb(98, 37, 155); 
+}
+
+.yogiBowl img {
+margin: 20px 500px 250px 200px;
+
+}
+
+.yogiBowl p {
+    font-size: 2.1rem;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    margin-top: 11px;
+   
+}
+.yogiBowl strong {
+font-weight: bold;
+color: rgb(88, 12, 158);
+font-style: italic;  
+font-size: 2.5rem;
+}
+
+
+.yogiBowl {
+    margin: 5px 200px 100px 225px;
+}
+
+
+/* Yogi Bowl end */
+
+    /* singature bowls end */
+
+/* subscribe start */
+form {
+    max-width: 28%;
+    margin:  200px 200px 300px 650px;
+    font-size: 2.5rem;
+    color: rgb(143, 35, 153);   
+}
+
+.FirstName , .LastName, .email {
+    text-align: center;
+    font-family: 👨‍🚀 ;
+}
+
+input[type="text"], 
+input[type="email"] {
+    font-size: 2rem;
+    padding: 3px 20px;
+    width: 85%;
+    margin-bottom: 16px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 54%;
+    background-color: rgb(230, 220, 220);
+}
+
+button {
+    font-size: 3.5rem;
+    width: 85%;
+    padding: 8px;
+    border-radius: 46%;
+    outline: none;
+    color: #efefef;
+    background-color: rgba(165, 49, 175, 0.719);
+    margin: 57px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(72, 7, 110);
+    font-weight: bolder;
+    font-weight: lighter;
+    font-size: 5rem;   
+}
+
+button:active {
+    color: rgb(223, 18, 18);
+}
+
+fieldset {
+    
+    padding: 18px;
+    border-radius: 13%;
+}
+
+/* Subscribe end */
+
+/* Links/Cooperation Start */
+
+.Coop-SC {
+    margin: 200px 100px 10px 300px;
+    width: 60%;
+    font-size: 2rem;
+    font-family: 👊 ;
+    color: rgb(98, 37, 155);
+}
+
+.sC-Link {
+    margin: 100px 500px;
+    font-size: 4rem;
+    font-family: 👊 ;
+    
+}
+.sC-Link a:hover {
+    color: purple;
+
+}
+
+.sC-Link a:active {
+color: rgb(171, 219, 58);
+
+}
+
+.Coop-GC {
+    margin: 10px 100px 10px 300px;
+    width: 60%;
+    font-size: 2rem;
+    font-family: 👊 ;
+    color: rgb(98, 37, 155);
+}
+
+.GC-Link {
+    margin: 100px 500px;
+    font-size: 4rem;
+    font-family: 👊 ;
+    
+}
+.GC-Link a:hover {
+    color: purple;
+
+}
+
+.GC-Link a:active {
+color: rgb(171, 219, 58);
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Links/Cooperations End */
+
+/* footer start */
+.icons {
+
+    position: fixed;
+   right: 0;
+    bottom: 0;
+    margin-right: 25px
+    
+}
+.icons a {
+display: inline-block;
+font-size: 40px;
+color: rgb(116, 24, 116);
+margin-right: 25px;
+padding-right: 20px;
+border-radius: 25%;
+}
+.icons a:hover {
+color: rgb(123, 185, 165);
+    text-shadow:
+    -1px -1px 0 rgb(171, 219, 58),
+    1px -1px 0 rgb(171, 219, 58),
+    -1px 1px 0 rgb(171, 219, 58),
+    1px 1px 0 rgb(171, 219, 58);
+font-size: 80px;
+}
+    
+    .icons a:active {
+        color: rgb(233, 233, 70);
+    }
+/* footer end */
+
+
+
+   
